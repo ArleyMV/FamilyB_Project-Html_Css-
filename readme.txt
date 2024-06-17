@@ -14,9 +14,10 @@ En el presente repositorio, dirigirse a la carpeta (/proceso) en la cual están 
 ---------------------------------------------------------------------
 
 
-##Diseño inicial
+##Diseño inicial y Diapositiva:
 
-https://drive.google.com/file/d/1b-e6H3D7ys3FtGNm3G-P-kBjY5iLhuoU/view?usp=sharing 
+Drive:
+https://drive.google.com/drive/folders/1eWeTldupQqNnuwf639OPPBQOHtRMBB1o?usp=sharing 
 ---------------------------------------------------------------------
 
 

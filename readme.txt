@@ -14,7 +14,7 @@ En el presente repositorio, dirigirse a la carpeta (/proceso) en la cual están 
 ---------------------------------------------------------------------
 
 
-##Diseño inicial y Diapositiva:
+##Diseño inicial y Diapositivas:
 
 Drive:
 https://drive.google.com/drive/folders/1eWeTldupQqNnuwf639OPPBQOHtRMBB1o?usp=sharing 

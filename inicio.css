@@ -1,0 +1,176 @@
+@font-face {
+    font-family:"fuentenormal";
+    src: url(/multimedia/fuentes/Light\ Stories.ttf);
+}
+@font-face {
+    font-family:"fuentetitulos";
+    src: url(multimedia/fuentes/Square\ One\ Bold\ Italic.ttf);
+}
+@font-face {
+    font-family:"fuentesubtitulos";
+    src: url(multimedia/fuentes/AldotheApache.ttf);
+}
+@font-face {
+    font-family:"fuentefamilyb";
+    src: url(multimedia/fuentes/Another\ Danger\ Slanted\ -\ Demo.otf);
+}
+
+:root{
+    --amarillofosforesente:#ccff00;
+}
+
+body{
+    background-color:black;
+}
+
+header img{
+    width:100%;
+}
+
+.li-lista{
+    display:inline;
+    margin:2vw;
+}
+
+nav ul{
+    list-style-type:none;
+}
+
+.icons{
+    width:7vw;
+}
+
+header{
+    display:grid;
+    grid-template-columns:30vw 60vw;
+    grid-column:10vw;
+    align-items:center;
+    justify-content:right;
+    position:sticky;
+    top:0%;
+    background:linear-gradient(black,black,black,black,black, var(--amarillofosforesente));
+    border-bottom:2px solid white;
+}
+
+#cards div img{
+    width:25vw;
+    border-radius:10%;
+}
+
+#cards div{
+    display:block;
+    border:1px solid #ffffff;
+    border-radius:5%;
+    background-color: #000000;
+    padding:3vw;
+    text-align:center;
+}
+
+#cards{
+    display:grid;
+    grid-template-columns:49% 49%;
+    column-gap:2%;
+    row-gap:2vw;
+    justify-content:center;
+    align-items:center;
+    font-family:Fuentenormal;
+    font-size:3vw;
+    color:white;
+    border-radius:3vw;
+    margin-top:3vw; 
+    padding:1vw;
+    background: linear-gradient(black, var(--amarillofosforesente),black)
+}
+#cards a{
+    text-decoration:none;
+    color:rgb(0, 0, 0);
+    background-color:var(--amarillofosforesente);
+    padding:4px;
+    border-radius:1vw;
+}
+
+#cards h2{
+    font-family:fuentesubtitulos;
+    letter-spacing:1vw;
+}
+
+main{
+    justify-content:center;
+}
+
+#info{
+    font-family:fuentenormal;
+    font-size:5vw;
+    color:white;
+    text-align: center;
+    border-bottom:2px solid white;
+    background-color:black;
+}
+
+
+#Productos{
+    font-family:fuentesubtitulos;
+}
+
+#info{
+    margin:5vw 5vw 5vw 5vw;
+    font-family:fuentetitulos;
+}
+#info b{
+    font-family:fuentefamilyb;
+    letter-spacing:2vw;
+    color: #ccff00;
+}
+
+#carrusel{
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    padding-bottom:4vw;
+    border-bottom:2px solid white;
+}
+
+.deslizar{
+    flex:0 0 auto;
+    width:100%;
+    scroll-snap-align:start;
+}
+
+.deslizar img{
+    width:100%;
+    height:auto;
+}
+
+
+.except {
+    display:none;
+    background-color:black;
+    color: white; 
+    text-align: center;
+    position: fixed;
+    width: 100%; 
+    z-index: 1000;
+    height:100%;
+    justify-content: center;
+    align-items: center;
+}
+@media (min-width:768px) {
+    .except {
+        display:flex;
+        flex-direction: column;
+        font-size:5vw;
+        font-family:fuentesubtitulos;
+        width:99%;
+        padding-right:10vw
+    }
+    #family{
+        font-family:fuentefamilyb;
+        color: var(--amarillofosforesente);
+    }
+
+    body{
+        display:block;
+        justify-content: center;
+        align-items: center;
+    }
+    }

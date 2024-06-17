@@ -1,0 +1,179 @@
+@font-face {
+    font-family:"fuentenormal";
+    src: url(../multimedia/fuentes/Light\ Stories.ttf);
+}
+@font-face {
+    font-family:"fuentetitulos";
+    src: url(../multimedia/fuentes/Square\ One\ Bold\ Italic.ttf);
+}
+@font-face {
+    font-family:"fuentesubtitulos";
+    src: url(../multimedia/fuentes/AldotheApache.ttf);
+}
+@font-face {
+    font-family:"fuentefamilyb";
+    src: url(../multimedia/fuentes/Another\ Danger\ Slanted\ -\ Demo.otf);
+}
+
+:root{
+    --amarillofosforesente:rgb(204 255 0);
+}
+
+body{
+    background-color:black;}
+    
+
+header img{
+    width:100%;
+}
+
+.li-lista{
+    display:inline;
+    margin:2vw;
+}
+
+nav ul{
+    list-style-type:none;
+}
+
+.icons{
+    width:7vw;
+}
+
+header{
+    display:grid;
+    grid-template-columns:30vw 60vw;
+    grid-column:10vw;
+    align-items:center;
+    justify-content:right;
+    border-bottom:2px solid white;
+    background:linear-gradient(black,black,black,black,black, var(--amarillofosforesente));
+    height:100%;
+}
+
+main{
+    color: white; 
+}
+
+div #cont img{
+    width:5vw;
+    height:4vw;
+    justify-content:center;
+}
+
+footer{
+    background-color: black;
+    border-top:2px solid white;
+    margin-top:3vw;
+    padding:5vw;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    height:3vh;
+}
+footer a{
+    text-decoration: none;
+    color:black;
+    background-color: var(--amarillofosforesente);
+    padding:2vw;
+    border-radius:5vw;
+    font-family:fuentenormal;
+    font-size:6vw;
+}
+
+footer #cont{
+    width:8vw;
+    display: flex;
+    column-gap: 6vw;
+    align-items:center;
+    flex-direction:row;
+}
+
+#cont p{
+    color:white;
+}
+
+#footermain{
+    display: flex;
+    flex-direction: row;
+    column-gap:30vw;
+}
+
+
+#container-main{
+    margin:3vw;
+    border:2px solid var(--amarillofosforesente);
+    border-radius:20vw 20vw 0vw 0vw;
+    display: flex;
+    flex-direction: column;
+    background:linear-gradient(black,black,black, var(--amarillofosforesente),black);
+
+}
+
+#container-main img{
+    width:100%;
+    border-radius:20vw 20vw 20vw 20vw;
+}
+
+#container-main li{
+    list-style-type:none;
+    text-align: left;
+    padding-left:5vw;
+    font-family:fuentesubtitulos;
+}
+
+#info{
+    display: grid;
+    grid-template-columns:70% 20%;
+    padding:5vw;
+    margin-top:2vw;
+    background:rgb( 0 0 0 /0.5);
+}
+
+#materiales{
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    column-gap:10vw;
+}
+
+#precio{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family:fuentetitulos ;
+    letter-spacing:1vw;
+}
+
+.except {
+    display:none;
+    background-color:black;
+    color: white; 
+    text-align: center;
+    position: fixed;
+    width: 100%; 
+    z-index: 1000;
+    height:100%;
+    justify-content: center;
+    align-items: center;
+}
+@media (min-width:768px) {
+    .except {
+        display:flex;
+        flex-direction: column;
+        font-size:5vw;
+        font-family:fuentesubtitulos;
+        width:99%;
+        padding-right:10vw
+    }
+    #family{
+        font-family:fuentefamilyb;
+        color: var(--amarillofosforesente);
+    }
+
+    body{
+        display:block;
+        justify-content: center;
+        align-items: center;
+    }
+    }

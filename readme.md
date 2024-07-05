@@ -31,8 +31,8 @@
 > [!WARNING]
 >Si no tienes conocimientos sobre el tema, intenta no modificar ningún archivo.
 
-- 1. Abre en "Live Server" el archivo "inicio.html" o "index.html"
-- 2. En caso de que no uses VisualStudioCode o no tengas la extención, puedes dirigirte a la carpeta que descomprimiste, y abres con tu navegador preferido el archivo "inicio.html" o "index.html"
+- Abre en "Live Server" el archivo "inicio.html" o "index.html"
+- En caso de que no uses VisualStudioCode o no tengas la extención, puedes dirigirte a la carpeta que descomprimiste, y abres con tu navegador preferido el archivo "inicio.html" o "index.html"
 ---
 ## Tecnologías📱
 - Html
